@@ -1,39 +1,42 @@
-# Student Management System
+# 🎓 Student Management System
 
-![Java](https://img.shields.io/badge/Java-17%2B-blue)
+![Java](https://img.shields.io/badge/Java-17+-blue)
 ![MySQL](https://img.shields.io/badge/MySQL-8.0-orange)
 ![License](https://img.shields.io/badge/License-MIT-green)
+![CLI](https://img.shields.io/badge/Interface-Command_Line-lightgrey)
 
-A command-line student management system built with Java and MySQL using JDBC.
+A robust command-line student management application built with Java and MySQL using JDBC.
 
-## Features
+## 📋 Table of Contents
+- [Features](#-features)
+- [Prerequisites](#-prerequisites)
+- [Installation](#-installation)
+- [Database Setup](#-database-setup)
+- [Configuration](#-configuration)
+- [Running the Application](#-running-the-application)
+- [Project Structure](#-project-structure)
+- [Usage Guide](#-usage-guide)
+- [Troubleshooting](#-troubleshooting)
+- [License](#-license)
 
-- Add new student records
-- View all students
-- Update student information
-- Delete student records
-- Simple command-line interface
-- MySQL database integration
+## ✨ Features
+- ✅ Add new student records
+- 📋 View all students in formatted table
+- ✏️ Update student information
+- ❌ Delete student records
+- 🔍 Search functionality
+- 🛡️ Input validation
+- 🗃️ MySQL database integration
+- 📊 Data persistence
 
-## Prerequisites
+## 🛠️ Prerequisites
+| Requirement | Version | Download |
+|-------------|---------|----------|
+| Java JDK | 17+ | [Download](https://www.oracle.com/java/technologies/javase-jdk17-downloads.html) |
+| MySQL Server | 8.0+ | [Download](https://dev.mysql.com/downloads/mysql/) |
+| MySQL Connector/J | 8.0+ | [Download](https://dev.mysql.com/downloads/connector/j/) |
 
-- Java JDK 17 or later
-- MySQL Server 8.0+
-- MySQL Connector/J JDBC driver
-
-## Setup Instructions
-
-### 1. Database Setup
-
-1. Create the database:
-```sql
-CREATE DATABASE student_db;
-USE student_db;
-
-CREATE TABLE students (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(100) NOT NULL,
-    email VARCHAR(100) UNIQUE NOT NULL,
-    department VARCHAR(50) NOT NULL,
-    age INT NOT NULL
-);
+## 📥 Installation
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/StudentManagementSystem.git
