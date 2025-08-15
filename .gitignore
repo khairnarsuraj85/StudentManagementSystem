@@ -1,0 +1,18 @@
+@"
+# Java compiled files
+*.class
+*.jar
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+bin/
+out/
+
+# System files
+.DS_Store
+Thumbs.db
+"@ | Out-File -FilePath .gitignore -Encoding ASCII
